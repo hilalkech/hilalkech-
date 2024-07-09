@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Personnelle</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77a6f7 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header ul li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        #showcase {
+            min-height: 400px;
+            background: #77a6f7;
+            color: #fff;
+            text-align: center;
+            padding-top: 100px;
+        }
+        #showcase h1 {
+            font-size: 55px;
+            margin-top: 0;
+        }
+        #showcase p {
+            font-size: 20px;
+        }
+        #main {
+            padding: 20px;
+            background: #fff;
+            margin-top: 20px;
+        }
+        .dark {
+            padding: 15px;
+            background: #333;
+            color: #fff;
+            margin-top: 10px;
+            text-align: center;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 30px;
+            margin-top: 30px;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Ma Page Personnelle</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projets">Projets</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="showcase">
+        <div class="container">
+            <h1>Bienvenue sur ma page personnelle</h1>
+            <p>Découvrez mes services dans le domaine de l'électronique et mes projets spécifiques.</p>
+        </div>
+    </section>
+
+    <div class="container" id="main">
+        <section id="services">
+            <h2>Services</h2>
+            <p>Je me spécialise dans la vente et le service de matériel électronique, offrant une large gamme de produits et une expertise technique pour répondre à vos besoins.</p>
+        </section>
+
+        <section id="projets">
+            <h2>Projets</h2>
+            <h3>Installation de Caméras de Surveillance</h3>
+            <p>J'ai réalisé plusieurs projets d'installation de caméras de surveillance pour assurer la sécurité des propriétés résidentielles et commerciales.</p>
+
+            <h3>Télévision et Distribution de Signal</h3>
+            <p>Je suis également impliqué dans des projets de distribution de signal télévisé, garantissant une réception claire et fiable pour mes clients.</p>
+
+            <h3>Sonorisation</h3>
+            <p>La sonorisation est une autre de mes compétences, avec des projets visant à fournir une qualité sonore exceptionnelle pour divers événements et installations.</p>
+
+            <h3>Réseau Internet et WiFi</h3>
+            <p>Enfin, j'ai travaillé sur plusieurs projets de mise en place de réseaux internet et WiFi, assurant une connectivité rapide et stable pour les entreprises et les particuliers.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Vous pouvez me retrouver sur Facebook pour plus d'informations et pour suivre mes dernières réalisations.</p>
+            <p><a href="https://www.facebook.com/hilal.marrakech.5?mibextid=ZbWKwL" target="_blank">Mon Profil Facebook</a></p>
+        </section>
+    </div>
+
+    <footer>
+        <p>Ma Page Personnelle &copy; 2024</p>
+    </footer>
+</body>
+</html>
